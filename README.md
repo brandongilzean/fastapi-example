@@ -25,6 +25,6 @@ Simple just go to the http://localhost:8000/docs and use swagger
 
 ```
 docker build -t fastapiexp .
-docker run -d --name mycontainer -p 80:80 fastapiexp
+docker run -p 80:80 fastapiexp
 ```
 
